@@ -25,3 +25,6 @@ sudo mv minikube /usr/local/bin/minikube
 
 # Install git
 yum install git -y
+
+sudo usermod -aG docker $USER && newgrp docker
+minikube start
