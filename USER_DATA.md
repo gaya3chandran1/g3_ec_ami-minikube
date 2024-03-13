@@ -14,8 +14,8 @@ sudo usermod -a -G docker ec2-user &
 sudo chmod 666 /var/run/docker.sock &
 
 # Install kubectl
-curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
-chmod +x ./kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl 
+chmod +x ./kubectl 
 sudo mv ./kubectl /usr/local/bin/kubectl
 
 # Install minikube
