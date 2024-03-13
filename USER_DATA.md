@@ -2,9 +2,9 @@
 sudo yum update -y
 
 # Install Apache httpd
-sudo yum install -y httpd
-sudo systemctl start httpd
-sudo systemctl enable httpd
+#sudo yum install -y httpd
+# sudo systemctl start httpd
+# sudo systemctl enable httpd
 
 # Install Docker
 sudo amazon-linux-extras install docker -y &
